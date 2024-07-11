@@ -4,115 +4,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software AI Design</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Soft_future_Designer</title>
+  <link rel="stylesheet" href="ai.css">
 </head>
 <body>
+  
+  
+  
+  
+  <html>
+   <head>
+      <style>
+         body  {
+            background-image: url("ed.jpg");
+            background-color: #cccccc;
+         }
+      </style>
+   </head>
+   
+   <body>
+      <h1>Soft future Disegne</h1>
+   </body>
+<html>
+  
+  
+  
+  
+  
+  
   <header>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section id="home">
-      <h1>Welcome to Software AI Design</h1>
-      <p>We specialize in creating intelligent software solutions for businesses.</p>
-      <button>Learn More</button>
+      <h1>Benvido ao Soft_future_Designe</h1>
+      <p>Especializamo-nos em criar solucões em Designer de software de inteligencia  para os nossos Negocios.</p>
+      <button>Saber mais</button>
     </section>
     <section id="about">
-      <h1>About Us</h1>
-      <p>We are a team of experienced software developers and AI experts dedicated to creating innovative solutions.</p>
-      <img src="team.jpg" alt="Our Team">
+      <h1>Sobre nos</h1>
+      <p>Nos somos uma experiente equipa de Desenvolvedores de Softwares e  inteligencia artificial  dedicados em criar solucões inovadores.</p>
+      <img src="ramadan.jpg" alt="Our Team"width="300" height="200">
     </section>
     <section id="services">
-      <h1>Our Services</h1>
+      <h1>Nossos Serviços </h1>
       <ul>
-        <li><h2>AI Development</h2><p>We develop custom AI solutions for businesses.</p></li>
-        <li><h2>Software Development</h2><p>We design and develop software applications for various industries.</p></li>
-        <li><h2>Data Analytics</h2><p>We provide data analytics services to help businesses make informed decisions.</p></li>
+        <li><h2>inteligencia artificial Desenvolvedores </h2><p>Nos desenlvovemos  caminhos para resolver Negocios em inteligencia artificial.</p></li>
+        <li><h2>Software Desenvolvedores</h2><p>Desenhamos e Desenvolvemos applicações de softwares para varias insustrias.</p></li>
+        <li><h2>Analizadores de Data </h2><p>Nos providenciamos serviços de Analise de Data para ajudar nos Negocios e enviar informações que importa.</p></li>
       </ul>
     </section>
     <section id="contact">
-      <h1>Get in Touch</h1>
-      <p>Have a project in mind? Contact us to discuss how we can help.</p>
+      <h1>Tenha o toque</h1>
+      <p>Tem algum projecto em mente ?contacta-nos discutiremos como podemos ajudar.</p>
       <form>
-        <input type="text" placeholder="Name">
+        <input type="texto" placeholder="Nome">
         <input type="email" placeholder="Email">
-        <textarea placeholder="Message"></textarea>
-        <button>Send</button>
+        <textarea placeholder="Mensagem"></textarea>
+        <button>enviar</button>
       </form>
     </section>
   </main>
   <footer>
-    <p>&copy; 2023 Software AI Design. All rights reserved.</p>
+    <p>Delgado; 2024 Soft_future_Disegner. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="ai.js"></script>
 </body>
 </html>
 
-<!-- HTML Code -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software AI Design</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="home">
-      <h1>Welcome to Software AI Design</h1>
-      <p>We specialize in creating intelligent software solutions for businesses.</p>
-      <button>Learn More</button>
-    </section>
-    <section id="about">
-      <h1>About Us</h1>
-      <p>We are a team of experienced software developers and AI experts dedicated to creating innovative solutions.</p>
-      <img src="team.jpg" alt="Our Team">
-    </section>
-    <section id="services">
-      <h1>Our Services</h1>
-      <ul>
-        <li><h2>AI Development</h2><p>We develop custom AI solutions for businesses.</p></li>
-        <li><h2>Software Development</h2><p>We design and develop software applications for various industries.</p></li>
-        <li><h2>Data Analytics</h2><p>We provide data analytics services to help businesses make informed decisions.</p></li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h1>Get in Touch</h1>
-      <p>Have a project in mind? Contact us to discuss how we can help.</p>
-      <form>
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Message"></textarea>
-        <button>Send</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2023 Software AI Design. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
-
-
-});
