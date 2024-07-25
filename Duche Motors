@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Delgado|Duche Motors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/cssgrid.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/mobile.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link href="mobile.css" rel="stylesheet">
+     <link href="Car.css" rel="stylesheet">
+      <link href="ds.css" rel="stylesheet">
+</head>
+</head>
+</head>
+
+<body>
+
+
+  <html>
+   <head>
+      <style>
+         body  {
+            background-image: url("DMM.jpg");
+            background-color: #cccccc;
+         }
+      </style>
+   </head>
+   
+
+
+
+
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-header"> 
+                <a href="/index.html">
+                    <div class="logo">
+                        <img src="DM.png" alt="logo" height:400;width:200;>
+                    </div>
+                </a>
+                <div class="nav  auth-menu" hidden>
+                    <label for="toggle-auth">&#9776;</label>
+                    <input type="checkbox" id="toggle-auth" />
+                    <div class="menu white-menu" >
+                        <a href="/index.html">Principal</a>
+                        <a href="/dashboard/dashboard.html">Meu do dia</a>
+                        <a href="/auth/login.html" id="logout-btn">Sair</a>
+                    </div>
+                </div>
+                <div class="nav default-menu"  hidden >
+                    <label for="toggle">&#9776;</label>
+                    <input type="checkbox" id="toggle" />
+                    <div class="menu white-menu" >
+                        <a href="/index.html">Principal</a>
+                        <a href="/auth/login.html">Entrar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1 class="title pop-in">
+                    Auto
+                    <span class="narrow-font">Duche Motors</span>
+                </h1>
+                <p class="desc pop-in">
+                    
+                </p>
+                <a href="/auth/login.html"><button class="action pop-in">
+                    Cadastração do Cliente
+                </button></a>
+            </div>
+        </div>
+    </header>
+    <section class="yellow-bg center-content">
+        <p class="sub-title">
+            Duche Motors
+        </p>
+        <h2>
+            <span class="narrow-font">Duche Motors</span> Vantagem.</h2>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card advantage-card">
+                    <i class="fas fa-car fa-3x"></i>
+                    <h5>
+                        Car Detailing
+                    </h5>
+                    <p>
+                        Agenda o seu Detalhe hoje
+                    </p>
+                </div>
+                <div class="card advantage-card">
+                    <i class="fas fa-utensils fa-3x"></i>
+                    <h5>
+                            Serviço Exclusivo
+                    </h5>
+                    <p>
+                        Catering & Office Parties
+                    </p>
+                </div>
+                <div class="card advantage-card">
+                    <i class="fas fa-star fa-3x"></i>
+                    <h5>
+                        Elite Ambiance
+                    </h5>
+                    <p>
+                          Bom serviço de internet
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 extra-padding">
+                    <img src="7ven.jpeg" class="image" alt="benz">
+                </div>
+                <div class="col-xl-6 extra-padding">
+                    <p class="sub-title">
+                        Saiba mais sobre nos
+                    </p>
+                    <h2>
+                        <span class="narrow-font">Auto </span>Duche Motors</h2>
+                    <div class="orange-line"></div>
+                    <p>
+                        Delgado Duche | é o local ideal para a lavagem de carro ,nós optamos por um serviço de lavagem,manutenção e limpesa.
+                 
+                    </p>
+                    <p>
+                        
+                        
+                        
+                        
+                        ,
+                        
+                       .
+                    </p>
+                    <img src="./images/signature.png" id="signature" alt="signature">
+                    <p class="signature">
+                        Menu geral
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="grey-bg-content grey-bg">
+        <div class="container">
+            <p class="sub-title">
+                Veja o Duche Motors.
+            </p>
+            <h3>
+                <span class="narrow-font">junta-se a nós  todos os Sabados para</span>Jogos de apostas </h3>
+            <div class="orange-line"></div>
+        </div>
+    </section>
+    <div class="map ">
+        <iframe
+            src=" adicione um video de carro aqui     "
+            width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <section class="yellow-bg center-content">
+        <div class="container">
+            <p class="sub-title">
+                Delgado Duche Motors
+            </p>
+            <h2>
+                <span class="narrow-font">Duche </span>Membros.
+            </h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="DM.jpg" width="100%" alt="membership">
+                    <div class="card-container">
+                        <h5>
+                            Bronze
+                        </h5>
+                        <p>
+                            Agenda o seu  Duche hoje.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="DM.jpg" width="100%" alt="membership">
+                    <div class="card-container">
+                        <h5>
+                            Gold
+                        </h5>
+                        <p>
+                            Agenda o seu Duche hoje.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="DM.jpg" width="100%" alt="membership">
+                    <div class="card-container">
+                        <h5>
+                            Platinum
+                        </h5>
+                        <p>
+                            Agenda o seu Duche hoje.hoje.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="center-content">
+        <div class="container">
+            <div class="col-xl-12 col-12">
+                <p class="sub-title">
+                     Ultimos Testemunhos 
+                </p>
+                <h2>
+                    <span class="narrow-font">O que </span>Eles dizem sobre nós.
+                </h2>
+            </div>
+            <div class="testimony owl-carousel owl-theme">
+
+            </div>
+            <h5>você é um membro?? <a href="/auth/login.html">Cria uma conta</a> nos dé o seu testemunho sobre o nosso serviço.</h5>
+        </div>
+    </section>
+
+
+    <section class="dark-yellow-bg center-content highlights">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-3 ">
+                    <div class="happy-customers"></div>
+                    <i class="fas fa-users fa-4x"></i>
+                    <h3>
+                        6000
+                    </h3>
+                    <p class="sub-title">
+                        Cliente feliz
+                    </p>
+                </div>
+                <div class="col-xl-3 col-3">
+                    <div class="number-reviews"></div>
+                    <i class="fas fa-user-edit fa-4x"></i>
+                    <h3>
+                        400
+                    </h3>
+                    <p class="sub-title">
+                        # da revisão
+                    </p>
+                </div>
+                <div class="col-xl-3 col-3">
+                    <i class="fas fa-star fa-4x"></i>
+                    <h3>
+                        5
+                    </h3>
+                    <p class="sub-title">
+                        odiar
+                    </p>
+                </div>
+                <div class="col-xl-3 col-3">
+                    <i class="fas fa-award fa-4x"></i>
+                    <h3>
+                        10
+                    </h3>
+                    <p class="sub-title">
+                        # dos premios
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="grey-bg center-content callout">
+        <div class="container">
+            <h2>
+                <span class="narrow-font">Não tem melhor experiencia do que de conduzir um carro</span>limpo
+               
+            </h2>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 space-below">
+                    <img src="DM.png" alt="logo">
+                    <p>
+                        Participe no Evento de hoje! Catering & Office Parties. Acompanhe-nos  todas Terças para jogos de aposta.
+                       
+                    </p>
+                    <h3 class="footer-phone">
+                        +2389140657
+                    </h3>
+                </div>
+                <div class="col-lg-4 spacing-left space-below ">
+                    <h4>Horario</h4>
+                    <ul class="triangle">
+                        <li>
+                            Segunda . . . . . . . . . . 8:00am - 8:00pm
+                        </li>
+                        <li>
+                            Terça . . . . . . . . . .8:00am - 8:00pm
+                        </li>
+                        <li>
+                            Tuesday . . . . . . . . . 8:00am - 8:00pm
+                        </li>
+                        <li>
+                            Quarta . . . . . 8:00am - 8:00pm
+                        </li>
+                        <li>
+                            Quinta. . . . . . . . 8:00am - 8:00pm
+                        </li>
+                        <li>
+                            Sexta . . . . . . . . . . . 8:00am - 9:00pm
+                        </li>
+                        <li>
+                            Sabado . . . . . . . . 8:00am - 9:00pm
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 spacing-left">
+                    <h4>Nossa info</h4>
+                    <ul class="triangle">
+                        <li>santiago, </br>Praia,Coqueiro</li>
+                        <li>Jscedencia.sv@gmail.com</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="copywrite container center-content">
+        <div class="copywrite-left">
+            <p>@2024 Delgado Duche Mostors</p>
+        </div>
+        <div class="copywrite-right">
+            <a href="https://www.facebook.com/X eid Delgado/" target="blank">
+                <img src="images/facebook.svg" class="social-icon spacing" alt="facebook icon">
+                <span class="spacing">facebook</span>
+            </a>
+            <a href="https://twitter.com/Edy Silva/?lang=en" target="blank">
+                <img src="images/twitter.svg" class="social-icon spacing" alt="twitter icon">
+                <span class="spacing">twitter</span>
+            </a>
+            <a href="https://www.instagram.com/Edy Delgado/" target="blank">
+                <img src="images/instagram.svg" class="social-icon spacing" alt="instagram icon">
+                <span class="spacing">instagram</span>
+            </a> 
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="Delgado"></script>
+    <script src="/assets/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="/assets/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="utilities/http.js"></script>
+    <script src="utilities/cache.js"></script>
+    <script src="New file.js"></script>
+</body>
+
+</html>
