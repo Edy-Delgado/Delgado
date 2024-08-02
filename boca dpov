@@ -1,0 +1,149 @@
+<!-- HTML code Boca dpov-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boca dpov</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <head>
+      <style>
+         body  {
+            background-image: url("Grupo-MS.jpg");
+            background-color: #cccccc;
+         }
+      </style>
+   </head>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#feed">Pagina inicial</a></li>
+        <li><a href="#profile">Perfile</a></li>
+        <li><a href="#friends">Clientes</a></li>
+        <li><a href="#messages">Mensagens</a></li>
+        <li><a href="#settings">Definicões</a></li>
+      </ul>
+    </nav>
+    <div class="logo">
+      <img src="logo.png" alt="Bp">
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="#home">
+    <div class="hero-image">
+      <img src="hero-image.jpg" alt="Hero Image">
+    </div>
+    <div class="hero-text">
+      <h1>Benvindo Boca dpov!</h1>
+      <p>Connecta com  amigos, partilha pensamentos,descubra novidades.</p>
+      <a href="#" class="btn">Registrar</a>
+    </div>
+  </section>
+
+  <!-- Feed Section -->
+  <section class="#feed">
+    <h2>Novidades</h2>
+    <ul>
+      <li>
+        <div class="post">
+          <img src="user1.jpg" alt="User 1">
+          <h3>Boca dpov 1</h3>
+          <p>Este é um test.</p>
+          <a href="#" class="like">gosto</a>
+          <a href="#" class="comment">Comentario</a>
+        </div>
+      </li>
+      <li>
+        <div class="post">
+          <img src="user2.jpg" alt="User 2">
+          <h3>Boca dpov 2</h3>
+          <p>Este é um teste numero 2.</p>
+          <a href="#" class="like">gosto</a>
+          <a href="#" class="comment">Comentario</a>
+        </div>
+      </li>
+      <li>
+        <div class="post">
+          <img src="user3.jpg" alt="User 3">
+          <h3>Este é um teste numumero 3</h3>
+          <p>Este é um teste.</p>
+          <a href="#" class="like">gosto</a>
+          <a href="#" class="comment">comentario</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Profile Section -->
+  <section class="#profile">
+    <h2>Perfile</h2>
+    <div class="profile-image">
+      <img src="profile-image.jpg" alt="Profile Image">
+    </div>
+    <div class="profile-info">
+      <h3>Edy Delgado</h3>
+      <p>Bio: Este é um test da minha biografia .</p>
+      <a href="#" class="edit">Editar perfile</a>
+    </div>
+  </section>
+
+  <!-- Friends Section -->
+  <section class="#friends">
+    <h2>Amigos</h2>
+    <ul>
+      <li>
+        <img src="friend1.jpg" alt="Friend 1">
+        <h3>Amigo 1</h3>
+      </li>
+      <li>
+        <img src="friend2.jpg" alt="Friend 2">
+        <h3>Amigo 2</h3>
+      </li>
+      <li>
+        <img src="friend3.jpg" alt="Friend 3">
+        <h3>Amigo 3</h3>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Messages Section -->
+  <section class="#messages">
+    <h2>Mensagems</h2>
+    <ul>
+      <li>
+        <img src="user1.jpg" alt="User 1">
+        <h3>Amigo 1</h3>
+        <p>This is a sample message.</p>
+      </li>
+      <li>
+        <img src="user2.jpg" alt="User 2">
+        <h3>Amigo 2</h3>
+        <p>This is another sample message.</p>
+      </li>
+      <li>
+        <img src="user3.jpg" alt="User 3">
+        <h3>Amigo 3</h3>
+        <p>This is a third sample message.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p> @Delgado2024 Bocadpov</p>
