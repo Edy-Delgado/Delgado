@@ -1,0 +1,679 @@
+class HelloWorld
+    {
+    public static void main(String args[])
+    {
+    System.out.println("firts Edy Test!");
+    }
+    }
+*
+ * FileName :  IfElseStatementDemo1.java
+ */
+public class IfElseStatementDemo1
+{
+     public static void main(String args[])
+     {
+         //Declaring a variable "test" and initializing it with a value 10
+         int test=10;
+
+         //Checking if "test" is greater than 5
+         if(test>5)
+         {
+             //This block will be executed only if "test" is greater than 5
+             System.out.println("Success");
+         }
+         else
+         {
+             //This block will be executed only if "test" is not greater than 5
+             System.out.println("Failure");
+
+         }
+
+         //The if else blocks ends.
+         System.out.println("Executed successfully");
+     }
+}
+
+public class IfElseIfLadderDemo1
+{
+     public static void main(String args[])
+     {
+         //Declaring a variable "test" and initializing it with a value 2
+         int test=2;
+
+         if(test==1)
+         {
+             //This block will be executed only if "test" is equal to 1
+             System.out.println("Edy");
+         }
+         else if(test==2)
+         {
+             //This block will be executed only if "test" is equal to 2
+             System.out.println("Delgadoi");
+
+         }
+         else if(test==3)
+         {
+             //This block will be executed only if "test" is equal to 3
+             System.out.println("Silva");
+         }
+         else
+         {
+             System.out.println("No Match Found");
+         }
+     }
+}
+
+public class Test
+{
+    public static void main(String args[])
+    {
+        int x = Edy;
+        int y = Delgado;
+
+        if( x == Edy)
+        {
+            if( y == Delgado)
+            {
+            System.out.print("X = Edy and Y = Delgado");
+            }
+        }
+    }
+}
+
+
+File Name : SwitchStatementDemo1.java
+ */
+public class SwitchStatementDemo1
+{
+
+    public static void main(String args[])
+    {
+
+        int choice = 2;
+
+        switch (choice)
+        {
+        case 1:
+            System. out .println( "BCA" );
+            break ;
+
+        case 2:
+            System. out .println( "Interatlantico" );
+            break ;
+
+        case 3:
+            System. out .println( "Caixa economica" );
+            break ;
+
+        default :
+            System. out .println( "No Match Found" );
+        break ;
+
+        }
+    }
+}
+
+
+
+
+
+class WhileLoop
+{
+  public static void main(String args[])
+  {
+    int num = 30;
+
+    while(num < 60)
+    {
+      num = num + 5;
+      System.out.print(num + " ");	
+    }
+  }
+}
+
+
+class DoWhileLoop
+{
+  public static void main(String args[])
+  {
+   int num = 30;
+
+   do{ 
+
+    num = num + 2;
+    System.out.print(num + " ");
+
+   }
+   while (num < 60);
+
+  }
+}
+
+
+class ForLoop
+{
+  public static void main(String args[])
+  {
+    for(int a = 30; a < 60; a++)
+    {
+        System.out.print(a + " ");
+    }
+  }
+}
+
+class ForLoop
+{
+  public static void main(String args[])
+  {
+    for(int a = 30; a < 60; a++)
+    {
+        System.out.print(a + " ");
+    }
+  }
+}
+
+
+
+
+
+
+
+
+boolean[] anArrayOfBooleans;
+ String[] anArrayOfStrings;
+ double[] anArrayOfDoubles;
+ short[] anArrayOfShorts;
+ float[] anArrayOfFloats;
+ char[] anArrayOfChars;
+ byte[] anArrayOfBytes;
+ long[] anArrayOfLongs;
+ 
+ class Example
+{
+    public static void main(String[] args)
+    {
+        // declares an array of integers
+        int[] anArray;
+
+        // allocates memory for 10 integers
+        anArray = new int[10];
+
+        // initialize first element
+        anArray[0] = 100;
+        // initialize second element
+        anArray[1] = 200;
+        // and so forth
+        anArray[2] = 300;
+        anArray[3] = 400;
+        anArray[4] = 500;
+        anArray[5] = 600;
+        anArray[6] = 700;
+        anArray[7] = 800;
+        anArray[8] = 900;
+        anArray[9] = 1000;
+
+        System.out.println("Element at index 0: "+ anArray[0]);
+        System.out.println("Element at index 1: "+ anArray[1]);
+        System.out.println("Element at index 2: "+ anArray[2]);
+        System.out.println("Element at index 3: "+ anArray[3]);
+        System.out.println("Element at index 4: "+ anArray[4]);
+        System.out.println("Element at index 5: "+ anArray[5]);
+        System.out.println("Element at index 6: "+ anArray[6]);
+        System.out.println("Element at index 7: "+ anArray[7]);
+        System.out.println("Element at index 8: "+ anArray[8]);
+        System.out.println("Element at index 9: "+ anArray[9]);
+    }
+}
+
+
+class MultiDimArrayDemo
+{
+    public static void main(String[] args)
+    {
+        String[][] names =
+        {
+            //first list
+            {"Mr. ", "Mrs. ", "Ms. "},
+            //second list
+            {"walker", "granger"}
+        };
+
+        // Mr. walker
+        System.out.println(names[0][0] + names[1][0]);
+        // Ms. granger
+        System.out.println(names[0][2] + names[1][1]);
+
+    }
+}
+public class Bike
+{
+    public String brand = null;
+    public String model = null;
+    public String color = null;
+
+public void setColor(String newColor)
+    {
+        this.color = newColor;
+    }
+}
+}
+ClassName objectName= new ClassName();
+Bike bike1 = new Bike();
+Bike bike2 = new Bike();
+Bike bike3 = new Bike();
+bike1.setColor("black");
+bike2.setColor("white");
+bike3.setColor("brown");
+class Students
+{
+    int id;
+    String name;
+
+    Students(int i,String n)
+    {
+        id = i;
+        name = n;
+    }
+
+    void display()
+    {
+        System.out.println(id+" "+name);
+    }
+
+    public static void main(String args[])
+    {
+        // calling constructor
+        Students s1 = new Students(1,"Nigel");
+        // calling constructor
+        Students s2 = new Students(2,"Aliya");
+        s1.display();
+        s2.display();
+    }
+}
+
+public class Example
+{
+    public static void main(String[] args)
+    {
+        // call to mymethod
+
+        mymethod();
+        int a = 11;
+        int b = 6;
+
+        // call addme method and store its returned value in c variable
+        int c = addme(a, b);
+
+        // call printsum method and pass the value
+        printsum(c);
+    }
+
+    //simple method with no return statement or parameter
+    public void mymethod()
+    {
+        // declare string variable inside method
+        String s = ” This is an example of java method”;
+        System.out.println(s);
+    }
+
+    //method with two input parameters and return
+    public int addme(int a, int b)
+    {
+        return a + b;
+    }
+
+    //method with one parameter
+    public void printSum(int thesum)
+    {
+        System.out.println(“a+b= ”+theSum);
+    }
+}
+
+
+
+class Animal
+{
+    public void move()
+    {
+        System.out.println("Animals are cute");
+    }
+}
+
+class Cat extends Animal
+{
+    public void move()
+    {
+        System.out.println("Cats can walk and run");
+    }
+}
+
+public class TestCats
+{
+    public static void main(String args[])
+    {
+     // Animal reference and object
+        Animal animal = new Animal();
+
+     // Animal reference but Cat object
+        Animal b = new Cat();
+     // runs the method in Animal class
+        animal.move();
+     // Runs the method in Cat class
+        b.move();
+    }
+}
+
+class Vehicle
+{
+    String vehicleType;
+}
+
+public class Bike extends Vehicle
+{
+
+    String modelType;
+
+    public void showDetail()
+    {
+        //accessing Vehicle class member
+        vehicleType = "Bike";
+        modelType = "sports";
+
+        System.out.println(modelType+" "+vehicleType);
+    }
+
+    public static void main(String[] args)
+    {
+        Bike bike =new Bike();
+        bike.showDetail();
+    }
+}
+
+
+
+
+
+Class A
+{
+    public void methodA()
+    {
+        System.out.println("Super class method");
+    }
+}
+
+Class B extends A
+{
+    public void methodB()
+    {
+        System.out.println("Child class method");
+    }
+
+    public static void main(String args[])
+    {
+        B obj = new B();
+
+        //calling super class method
+        obj.methodA();
+
+        //calling local method
+        obj.methodB();
+    }
+}
+
+
+Class A
+{
+    public void methodA()
+    {
+        System.out.println("Class A method");
+    }
+}
+
+Class B extends A
+{
+    public void methodB()
+    {
+        System.out.println("class B method");
+    }
+}
+
+Class C extends B
+{
+    public void methodC()
+    {
+        System.out.println("class C method");
+    }
+
+    public static void main(String args[])
+    {
+        C obj = new C();
+
+        //calling grand parent class method
+        obj.methodA();
+
+        //calling parent class method
+        obj.methodB();
+
+        //calling local method
+        obj.methodC();
+    }
+}(
+)
+
+Class A
+{
+    public void methodA()
+    {
+        System.out.println("Class A method");
+    }
+}
+
+Class B extends A
+{
+    public void methodB()
+    {
+        System.out.println("class B method");
+    }
+}
+
+Class C extends B
+{
+    public void methodC()
+    {
+        System.out.println("class C method");
+    }
+
+    public static void main(String args[])
+    {
+        C obj = new C();
+
+        //calling grand parent class method
+        obj.methodA();
+
+        //calling parent class method
+        obj.methodB();
+
+        //calling local method
+        obj.methodC();
+    }
+}
+
+
+interface A
+{
+    public void methodA();
+}
+
+interface B extends A
+{
+    public void methodB();
+}
+
+interface C extends A
+{
+    public void methodC();
+}
+
+class D implements B, C
+{
+    public void methodA()
+    {
+        System.out.println("MethodA");
+    }
+
+    public void methodB()
+    {
+        System.out.println("MethodB");
+    }
+
+    public void methodC()
+    {
+        System.out.println("MethodC");
+    }
+
+    public static void main(String args[])
+    {
+        D obj1= new D();
+
+        obj1.methodA();
+        obj1.methodB();
+        obj1.methodC();
+    }
+}
+
+
+
+
+
+interface Animal
+{
+
+}
+class Mammal implements Animal
+{
+
+}
+
+public class Dog extends Mammal
+{
+    public static void main(String args[])
+    {
+        Mammal m = new Mammal();
+        Dog d = new Dog();
+
+        System.out.println(m instanceof Animal);
+        System.out.println(d instanceof Mammal);
+        System.out.println(d instanceof Animal);
+    }
+    
+    
+    
+    
+    class Parent
+{
+    String name;
+
+}
+
+public class Child extends Parent
+{
+    String name;
+
+    public void details()
+    {
+      //refers to parent class member
+        super.name = "Parent";
+        name = "Child";
+        System.out.println(super.name+" and "+name);
+    }
+
+    public static void main(String[] args)
+    {
+        Child cobj = new Child();
+        cobj.details();
+    }
+}(
+
+)
+}
+
+
+class Parent
+{
+    String name;
+
+    public Parent(String n)
+    {
+        name = n;
+    }
+}
+
+public class Child extends Parent
+{
+    String name;
+
+    public Child(String n1, String n2)
+    {
+      //passing argument to parent class constructor
+        super(n1);
+        this.name = n2;
+    }
+
+    public void details()
+    {
+        System.out.println(super.name+" and "+name);
+    }
+
+    public static void main(String[] args)
+    {
+        Child cobj = new Child("Parent","Child");
+        cobj.details();
+    }
+}
+
+
+
+
+//Address.java
+public class Address
+{
+    String city,state,country;
+
+    public Address(String city, String state, String country)
+    {
+        this.city = city;
+        this.state = state;
+        this.country = country;
+    }
+}
+
+//Student.java
+public class Student
+{
+    int id;
+    String name;
+    Address address;
+
+    public Emp(int id, String name,Address address)
+    {
+        this.id = id;
+        this.name = name;
+        this.address=address;
+    }
+
+    void showDetails()
+    {
+        System.out.println(id+" "+name);
+        System.out.println(address.city+" "+address.state+" "+address.country);
+    }
+
+    public static void main(String[] args)
+    {
+        Address add1=new Address("Mumbai","Maharashtra","India");
+        Address add2=new Address("Surat","Gujrat","India");
+        Student s1=new Student(0015,"Nigel",address1);
+        Student s2=new Student(0016,"Yogesh",address2);
+
+        s1.showDetails();
+        s2.showDetails();
+    }
