@@ -1,0 +1,83 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy app</title>
+    <link rel="stylesheet" href="style.css">
+ 
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+ <style>
+    body {
+      background-image: url("cb.jpg");
+      background-color: #cccccc;
+    }
+  </style>
+
+
+
+
+
+
+    <h1>Energy app </h1>
+    <form id="deliveryForm">
+        <label for="customerName">Nome do cliente:</label>
+        <input type="text" id="customerName" name="customerName"><br><br>
+        <label for="address">Endereço:</label>
+        <input type="text" id="address" name="address"><br><br>
+        <label for="fuelType">Tipo de combustivel:</label>
+        <select id="fuelType" name="fuelType">
+            <option value="gasoline">Gasolina</option>
+            <option value="diesel">Gasoleo</option>
+            <option value="propane">Outro</option>
+             <option value="gasoline">Outros serviços</option>
+        </select><br><br>
+        <label for="quantity">Quantidade(litros):</label>
+        <input type="number" id="quantity" name="quantity"><br><br>
+        <input type="submit" value="Pedir">
+    </form>
+    <div id="response"></div>
+
+    <script>
+        const form = document.getElementById('deliveryForm');
+        const responseDiv = document.getElementById('response');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const customerName = document.getElementById('customerName').value;
+            const address = document.getElementById('address').value;
+            const fuelType = document.getElementById('fuelType').value;
+            const quantity = document.getElementById('quantity').value;
+
+            fetch('/place_order', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    customerName,
+                    address,
+                    fuelType,
+                    quantity
+                })
+            })
+          .then(response => response.json())
+          .then((data) => {
+                responseDiv.innerHTML = `Order placed successfully! Order ID: ${data.orderId}`;
+            }) 
+          .catch((error) => {
+                responseDiv.innerHTML = `Error: ${error.message}`;
+            });
+        });
+    </script>
+</body>
+</html>
