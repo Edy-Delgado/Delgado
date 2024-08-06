@@ -1,0 +1,85 @@
+* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #FF9900; /* Orange background color */
+}
+
+/* Header Styles */
+
+header {
+  background-color: #FF3737; /* Red background color */
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #FF9900; /* Orange background color */
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* Article Styles */
+
+article {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #FF3737; /* Red background color */
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
