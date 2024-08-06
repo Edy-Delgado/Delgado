@@ -1,0 +1,41 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const navList = document.getElementById('navList');
+    const mainContent = document.getElementById('mainContent');
+
+    // Sample data for articles
+    const articles = [
+        { title: 'Sports Article', category: 'sports', content: 'This is a sports article.' },
+        { title: 'Politics Article', category: 'politics', content: 'This is a politics article.' },
+        { title: 'Entertainment Article', category: 'entertainment', content: 'This is an entertainment article.' },
+        { title: 'General Article', category: 'all', content: 'This is a general article.' },
+        // Add more articles here...
+    ];
+
+    // Function to render articles based on category
+    function renderArticles(category) {
+        mainContent.innerHTML = ''; // Clear the content
+        articles.forEach(article => {
+            if (category === 'all' || article.category === category) {
+                const articleElement = document.createElement('div');
+                articleElement.classList.add('article');
+                articleElement.innerHTML = `
+                    <h2>${article.title}</h2>
+                    <p>${article.content}</p>
+                `;
+                mainContent.appendChild(articleElement);
+            }
+        });
+    }
+
+    // Event listener for navigation
+    navList.addEventListener('click', function(event) {
+        if (event.target.tagName === 'A') {
+            event.preventDefault();
+            const category = event.target.getAttribute('data-category');
+            renderArticles(category);
+        }
+    });
+
+    // Render all articles on page load
+    renderArticles('all');
+});
