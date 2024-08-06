@@ -1,3 +1,4 @@
+
 <DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,18 @@
     <link rel="stylesheet" href="coffee.css">
 </head>
 <body>
+
+
+<head>
+      <style>
+         body  {
+            background-image: url("vulcão.jpg");
+            background-color: #cccccc;
+         }
+      </style>
+   </head>
+
+
     <!-- Header Section -->
     <header>
         <nav>
@@ -25,7 +38,7 @@
         <div class="fogo image">
             <img src="vulcão.jpg" alt="vulcão.jpg" width="400" height="200">
         </div>
-        <div class="hero-text">
+        <section id="Menu">
             <h2>Benvindo menu matinal</h2>
             <p> Onde todos se encontram</p>
             <button>Saber mais</button>
