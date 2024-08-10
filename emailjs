@@ -1,0 +1,15 @@
+
+  const form = document.getElementById("email-form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  // Perform email and password validation here
+
+  // Example of sending a request to a server
+  fetch("https://example.com/login", {
+    method: "POST",
+    headers:
