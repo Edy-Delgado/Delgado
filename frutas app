@@ -1,0 +1,135 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>loja de frutas</title>
+                <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<style>
+ body {
+ background-image: url("frts.png");
+ background-color: #cccccc;
+ }
+</style>
+
+<!-- Header Section -->
+                <header>
+                <nav>
+                <ul>
+                <li><a href="#home">inicio</a></li>
+                <li><a href="#products">Frutas</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                </ul>
+                </nav>
+                </header>
+
+<!-- Hero Section -->
+              <section id="home">
+              <h1>Benvindo ao Frutas!</h1>
+              <p>Explore os nossos produtos e faça sua encomenda online .</p>
+              <button><a href="tt.html">compre Agora</a></button>
+        
+               </section>
+<!-- Products Section -->
+               <section id="products">
+               <h2>Frutas</h2>
+               <div class="product-grid">
+               <div class="product">
+               <img src="product1.jpg" alt="Product 1">
+               <h3>Banana</h3>
+                <p>300$/kg</p>
+                <button>Cartão<a href="tt.html"></button><a/>
+                </div>
+                <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Uva </h3>
+                <p>200$/kg</p>
+                <button>Cartão</button>
+                </div>
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Laranja</h3>
+                <p>350$/kg</p>
+                <button>Cartão</button>         
+                </div>
+        
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>papaia</h3>
+                <p>400$/kg</p>
+                <button>Cartão</button>         
+                </div>
+        
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Pera</h3>
+                <p>200$/kg</p>
+                <button>Cartão</button>         
+                </div>
+        
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Melancia</h3>
+                <p>400$/kg</p>
+                <button>Cartão</button>         
+                </div>
+        
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Pêssego</h3>
+                <p>300$/kg</p>
+                <button>Cartão</button>         
+                </div>
+                  <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Ameixa</h3>
+                <p>330$/kg</p>
+                <button>Cartão</button>         
+                </div>
+                  <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Pinha</h3>
+                <p>440$/kg</p>
+                <button>Cartão</button>         
+        </div>
+        
+        
+                
+<!-- Add more products here -->
+               </div>
+               </section>
+
+<!-- About Section -->
+                <section id="about">
+                <h2>Sobre nos</h2>
+                <p> fazemos chegar frutas frescas a sua casa .</p>
+                <p>Serviço de entrega Seguro e sem demora.</p>
+               </section>
+
+<!-- Contact Section -->
+              <section id="contact">
+              <h2>Contacta-nos</h2>
+              <p>Contacta-nos e tenha uma vida saudavel com o frutas . <a href="jscedencia.sv@gmail.com">jscedencia.sv@gmail.com</a></p>
+              <p>Follow social media:</p>
+              <ul>
+              
+              
+              <li><a href="https://www.facebook.com/Frutas"target="_blank">Facebook</a></li>
+              <li><a href="https://www.instagram.com/Frutas"target="_blank">Instagram</a></li>
+              <li><a href="https://www.twitter.com/Frutas"target="_blank">Twitter</a></li>
+              </ul>
+              </section>
+
+<!-- Footer Section -->
+           <footer>
+           <p>Delgado@2024Frutas</p>
+           </footer>
+
+<!-- JavaScript files -->
+           <script src="script.js"></script>
+</body>
+</html>
