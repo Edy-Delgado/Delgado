@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="dd.css">
+<style>
+ body {
+ background-image: url("frts.png");
+ background-color: #cccccc;
+ }
+</style>
+<center>
+<section id="order">
+            <h1>Deposito</h1>
+            <form id="#order-form">
+               
+                <label for="package-name">Nome do pacote:</label>
+                <input type="text" id="package-name" name="package-name" required>
+                <label for="quantity">Quantidade:</label>
+                <input type="number" id="quantity" name="quantity" required>
+                <label for="card-number">Numero do Cartão:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                <label for="expiration-date">Data de Expiração:</label>
+                <input type="text" id="expiration-date" name="expiration-date" required>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                <button type="submit">Deposito</button>
+                </center>
+            </form>           
+           <div id="order-response"></div>
+        </section>
+        
