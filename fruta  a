@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de controlo pacotes financeiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<head>
+      <style>
+         body  {
+            background-image: url("frts.png");
+            background-color: ##pppppp;
+         }
+      </style>
+   </head>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html">inicio</a>
+                <li><a href="#packages">Pacotes</a></li>
+                <a href="2.html">Deposito</a> 
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <section id="home">
+            <h1>Benvido ao Sistema de Controlo de pacotes Financeiro</h1>
+            <p>Este sistema te permite   Depositar e controlar pacotes de forma Seguro e eficiente.</p>
+        </section>
+        <section id="packages">
+            <h1>Pacotes</h1>
+           <section id="products">
+               <h2>Frutas</h2>
+               <div class="product-grid">
+               <div class="product">
+               <img src="product1.jpg" alt="Product 1">
+               <h3>Banana</h3>
+                <p>300$/kg</p>
+                <a href="2.html"><button>Cartão<button></a>
+                </div>
+                <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Uva </h3>
+                <p>200$/kg</p>
+                <a href="2.html"><button>Cartão</button></a>
+                </div>
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Laranja</h3>
+                <p>350$/kg</p>
+                <a href="2.html"><button>Cartão</button></a>        
+                </div>
+        
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>papaia</h3>
+                <p>400$/kg</p>
+               <a href="2.html"> <button>Cartão</button></a>         
+                </div>
+        
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Pera</h3>
+                <p>200$/kg</p>
+              <a href="2.html"><button>Cartão</button></a>         
+                </div>
+        
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Melancia</h3>
+                <p>400$/kg</p>
+              <a href="2.html"> <button>Cartão</button></a>         
+                </div>
+        
+                <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Pêssego</h3>
+                <p>300$/kg</p>
+               <a href="2.html"> <button>Cartão</button></a>         
+                </div>
+                  <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Ameixa</h3>
+                <p>330$/kg</p>
+              <a href="2.html"><button>Cartão</button></a>         
+                </div>
+                  <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Pinha</h3>
+                <p>440$/kg</p>
+               <a href="2.html"> <button>Cartão</button></a>         
+        </div>
+        
+                
+                    
+                 
+                
+            </table>
+        </section>
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
