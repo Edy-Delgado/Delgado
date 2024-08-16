@@ -1,0 +1,46 @@
+// JavaScript
+// dashboard.js
+
+// Selectors
+const sidebar = document.querySelector('aside');
+const mainContent = document.querySelector('main');
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('nav a');
+const stats = document.querySelectorAll('.stat');
+
+// Add event listeners to nav links
+navLinks.forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const sectionId = link.getAttribute('href').replace('#', '');
+    showSection(sectionId);
+  });
+});
+
+// Add event listeners to stats
+stats.forEach((stat) => {
+  stat.addEventListener('click', () => {
+    // Toggle stat details
+    stat.classList.toggle('active');
+  });
+});
+
+// Function to show a section
+function showSection(sectionId) {
+  sections.forEach((section) => {
+    section.style.display = 'none';
+  });
+  document.querySelector(`#${sectionId}`).style.display = 'block';
+}
+
+// Function to toggle sidebar
+function toggleSidebar() {
+  sidebar.classList.toggle('active');
+  mainContent.classList.toggle('active');
+}
+
+// Add event listener to toggle sidebar button
+document.querySelector('.toggle-sidebar').addEventListener('click', toggleSidebar);
+
+// Initialize dashboard
+showSection('home');
