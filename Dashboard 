@@ -1,0 +1,153 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de preço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<style>
+ body {
+ background-image: url("Dash.jpg");
+ background-color: #cccccc;
+ }
+</style>
+
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#orders">Deposito</a></li>
+                <li><a href="#customers">Customers</a></li>
+                <li><a href="#settings">opcões</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Dashboard Section -->
+        <section id="home">
+            <h1>Tabela de Preço</h1>
+            <p>Benvindo a Tabela de preço!</p>
+            <div class="stats">
+                <div class="stat">
+                    <h2>Deposito</h2>
+                    <p>10</p>
+                </div>
+                <div class="stat">
+                    <h2>Cliente</h2>
+                    <p>50</p>
+                </div>
+                <div class="stat">
+                    <h2>Produto</h2>
+                    <p>20</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <h1>compra de produto</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Preço</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Produto </td>
+                        <td>200$</td>
+                        <td>
+                            <button>Editar</button>
+                            <button>Apagar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Produto</td>
+                        <td>220$</td>
+                        <td>
+                            <button>Editar</button>
+                            <button>APagar</button>
+                        </td>
+                    </tr>
+                    <!-- Add more products here -->
+               </tbody>
+         </table>
+</section>
+
+        <!-- Orders Section -->
+        <section id="orders">
+            <h1>Deposito da Compra</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Customer</th>
+                        <th>Data</th>
+                        <th>Total</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Edy Delgado</td>
+                        <td>2024-02-20</td>
+                        <td>$50.00</td>
+                        <td>
+                            <button>ver </button>
+                            <button>Apagar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Edy Delgado</td>
+                        <td>2024-02-22</td>
+                        <td>$30.00</td>
+                        <td>
+                            <button>Ver</button>
+                            <button>Apagar</button>
+                        </td>
+                    </tr>
+                    <!-- Add more orders here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Customers Section -->
+        <section id="customers">
+            <h1>Compra do cliente1</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Edy Delgado</td>
+                        <td>jscedencia.sv@gmail.com</td>
+                        <td>
+                            <button>Editar</button>
+                            <button>Apagar</button>
+                        </td>
+                    </tr>
+                    <script src="Java script.js"></script>
+                       
