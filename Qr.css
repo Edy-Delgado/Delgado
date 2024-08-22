@@ -1,0 +1,42 @@
+/* QR code container */
+#qr-code {
+  width: 256px;
+  height: 256px;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* QR code cells */
+.qr-cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 2px;
+}
+
+/* Dark cells */
+.qr-cell.dark {
+  background-color: #000;
+}
+
+/* Light cells */
+.qr-cell.light {
+  background-color: #fff;
+}
+
+/* QR code pattern */
+#qr-code:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #fff 50%, #000 50%);
+  background-size: 25px 25px;
+  background-position: 0% 0%;
+}
